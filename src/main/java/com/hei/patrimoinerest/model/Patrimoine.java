@@ -1,4 +1,6 @@
 package com.hei.patrimoinerest.model;
 
-public record Patrimoine() {
+import java.time.LocalDateTime;
+
+public record Patrimoine(String possesseur, LocalDateTime dernierModification) {
 }
